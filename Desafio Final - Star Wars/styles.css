@@ -1,0 +1,35 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-image: url(imgs/star\ uó\ topo.png);
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+header img.kylo {
+    height: 64vh;
+    padding: 0vh 0vh 0vh 13vh;
+    margin: -37vh auto auto auto;
+}
+
+header img.star {
+    height: 8vh;
+    padding: 0vh 0vh 0vh 21vh;
+    margin: -13vh auto auto auto;
+}
+
+header img.wars {
+    height: 8vh;
+    padding: 41vh 0vh 0vh 26vh;
+    margin: -13vh auto auto auto;
+}
+
+footer {
+    background-color: #FF5A56;
+    color: white;
+}

@@ -1,0 +1,18 @@
+.body {
+    font-family: Roboto, Arial;
+}
+
+.img-voluntario {
+    background-color: #C4C4C4;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.adote-caixas {
+    display: inline-block;
+}
+
+.imgs-adote {
+    width: 200px;
+}
