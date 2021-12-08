@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: ;
+}
+
+body {
+    background-image: url(assets/the\ witcher\ hell.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header div.logo-box {
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+
+header div.logo-box img {
+    height: 75%;
+}
+
+header div.logo-box a {
+    color: white;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 400;
+    /* font-size: 1.4rem; */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav.menu-box {
+    display: flex;
+    width: 45%;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-right: 5%;
+}
+
+header nav.menu-box a {
+    color: white;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 400;
+    /* font-size: 1.4rem; */
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+header nav.menu-box a:hover {
+    font-weight: 700;
+}
+
+main section.main-box {
+    background-image: url(assets/the\ witcher\ kavil2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    align-self: stretch;
+    height: 100vh;
+}
+
+main section.main-box div.main-subbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+footer p {
+    color: white;
+    font-family: Montserrat, Helvetica, sans-serif;
+    font-weight: 800;
+    /* font-size: .9rem; */
+}

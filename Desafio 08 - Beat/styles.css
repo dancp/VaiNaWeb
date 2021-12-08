@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #129799;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+
+header nav.menu-box {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+}
+
+header nav.menu-box div.menu {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+header nav.menu-box div.menu a {
+    color: #F7F7F7;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+header nav.menu-box div.menu a:hover {
+    font-weight: 500;
+}
+
+main section.top-box div.top-box1 {
+    display: flex;
+    height: 30vh;
+}
+
+main section.top-box div.top-box1 h1 {
+    color: #F7F7F7;
+    font-size: 2.7rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 50%;
+}
+
+main section.top-box div.top-box1 img {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+main section.top-box div.top-box2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    height: 5vh;
+}
+
+main section.top-box div.top-box2 nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+}
+
+main section.top-box div.top-box2 nav a {
+    color: #F7F7F7;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+main section.main-box {
+    background-color: #FFA185;
+}
+
+main div.main-box-top {
+    margin: 0 5% 0 5%;
+    padding-top: 5%;
+}
+
+main div.main-box-top h1 {
+    color: #F7F7F7;
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 2% 0;
+}
+
+main div.main-box-middle {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 5% 5% 0 5%;
+}
+
+main div.main-box-middle img {
+    width: 40%;
+    margin: 10px;
+}
+
+main div.main-box-bottom {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+}
+
+main div.main-box-bottom a {
+    color: black;
+    font-weight: 700;
+    text-decoration: none;
+    margin: 3%;
+}
+
+footer section.footer-box {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    justify-content: space-between;
+}
+
+footer section.footer-box .icons-box {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+
+footer section.footer-box .icons-box img {
+    width: 30px;
+    margin: 0 10px 0 10px;
+}
+
+footer section.footer-box .footer-nav {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+footer section.footer-box .footer-nav a {
+    color: #F7F7F7;
+    font-weight: 500;
+    text-decoration: none;
+}
