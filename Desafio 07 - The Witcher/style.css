@@ -13,35 +13,34 @@ body {
     height: 100vh;
 }
 
-header {
-
+header .logo-header {
+    display: inline-block;
+    width: 30%;
+    text-align: center;
 }
 
 header img {
-    border: 1px solid white;
     display: inline-block;
-    height: 8vh;
-    margin: 1% 0 0 10%;
+    width: 40px;
+    margin: 2% 0 -7% 10%;
     padding: 0 0 0 0;
 }
 
-header > a {
-    border: 1px solid white;
+header .logo-header a {
     color: white;
     font-family: Montserrat, Helvetica, sans-serif;
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
     display: inline-block;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
+    margin: 0 0 0 6%;
+    padding: 0 0 0 20px;
 }
 
 header nav.menu-box {
-    border: 1px solid white;
     display: inline-block;
-    width: 38%;
-    margin: 0 0 0 0;
+    width: 40%;
+    margin: 0 0 0 29%;
     padding: 0 0 0 0;
 }
 
@@ -52,6 +51,7 @@ header nav.menu-box a {
     text-decoration: none;
     text-transform: uppercase;
     margin: 0 5% 0 0;
+    padding: 0 0 0 0;
 }
 
 header nav.menu-box a:hover {
@@ -60,32 +60,29 @@ header nav.menu-box a:hover {
 
 main {
     background-image: url(assets/the\ witcher\ kavil2.png);
-    background-repeat:;
-    background-position:;
-    background-size:;
-    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 95vh;
 }
 
-main section.main-box {
-
+main section.main-box img#logo {
+    display: block;
+    width: 32vw;
+    margin: auto;
+    padding: 425px 0 0 0;
 }
 
-main section.main-box img.logo {
-    border: 1px solid white;
+main section.main-box a img {
     display: block;
     margin: auto;
-    padding-top: 20%;
+    padding: 10px 0 0 0;
 }
 
-main section.main-box a {
-    border: 1px solid white;
-    display: block;
-    margin: auto;
-}
-
-/* footer p {
+main p {
     color: white;
     font-family: Montserrat, Helvetica, sans-serif;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     font-weight: 800;
-} */
+    margin: 14% 60% 0 2%;
+    padding: 0 0 0 0;
+}

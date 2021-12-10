@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2CB3F3;
+    position: relative;
+}
+
+h1 {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 3.5rem;
+    position: absolute;
+    top: 10px;
+    left: 370px;
+}
+
+p {
+    font-family: Roboto, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+    position: absolute;
+    top: 90px;
+    left: 300px;
+}
+
+.cabeca {
+    background-color: white;
+    position: absolute;
+    width: 880px;
+    height: 616px;
+    left: 50px;
+    top: 150px;
+    border-radius: 5em 5em 0 0;
+}
+
+.circulo-centro {
+    background-color: #FFE1C9;
+    position: absolute;
+    width: 692px;
+    height: 487px;
+    left: 100px;
+    top: 55px;
+    border-radius: 50%;
+}
+
+.olho-esquerdo {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    top: 100px;
+    left: 170px;
+}
+
+.olho-direito {
+    background-color: black;
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    top: 100px;
+    left: 430px;
+}
+
+.login {
+    border: 1px solid black;
+    word-break: break-all;
+    width: 350px;
+    position: absolute;
+    left: 180px;
+    top: 250px;
+}
+
+#email {
+    border: 3px solid black;
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 350px;
+    height: 60px;
+}
+
+#password {
+    border: 3px solid black;
+    color: rgba(128, 128, 128, 0.719);
+    font-size: 1.8rem;
+    font-weight: 400;
+    width: 350px;
+    height: 60px;
+}
+
+button {
+    font-size: 1.2rem;
+    color: #B2F272;
+    background-color: #55A603;
+    border: #55A603;
+    width: 200px;
+    height: 60px;
+    border-radius: .5em;
+    box-shadow: 0px 3px 4px 3px rgba(0,0,0,0.75);
+    position: absolute;
+    left: 380px;
+    top: 800px;
+}
