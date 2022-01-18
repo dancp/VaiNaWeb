@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;800&family=Playfair+Display:wght@900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Montserrat, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 8vh;
+}
+
+header div.logo img {
+    margin: 0 0 0 5vw;
+}
+
+header nav.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 65vw;
+    margin: 0 5vw 0 5vw;
+}
+
+header nav.menu a {
+    color: #9767A9;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+header nav.menu a:hover {
+    font-weight: 800;
+}
+
+header span.busca {
+    border: 2px solid #9767A9;
+    display: flex;
+    align-items: center;
+    width: 15vw;
+    height: 3vh;
+    margin: 0 2vw 0 0;
+    border-radius: 1em;
+}
+
+header span.busca img {
+    margin: 0 5px 0 5px;
+    width: 1vw;
+}
+
+header span.busca p {
+    color: rgba(128, 128, 128, 0.500);
+    font-size: 0.8rem;
+}
+
+header div.icons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 9.7vw;
+    margin: 0 5vw 0 0;
+}
+
+header div.icons img {
+    width: 2.5vw;
+    margin-left: 1vw;
+}
+
+main div.hero {
+    background-image: url('assets/cabeludo2.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 45vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main div.hero h1 {
+    color: white;
+    font-family: Playfair Display, Times, serif;
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 8vh;
+    margin: 10vh 10vw 0 10vw;
+}
+
+main div.hero h2 {
+    color: white;
+    font-size: 1.8rem;
+    font-weight: 300;
+    margin: 10vh 10vw 0 13vw;
+}
+
+main div.main-box-top {
+    background-color: #9767A9;
+    height: 35vh;
+    display: flex;
+}
+
+main div.main-box-top h1 {
+    color: white;
+    font-family: Playfair Display, Times, serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 8vh;
+    margin: 1% 1% 0 5%;
+}
+
+main div.main-box-top p {
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 1.2em;
+    text-align: left;
+    width: 70vw;
+    margin: 2% 5% 0 1%;
+}
+
+main section.main-box-middle {
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    width: 85vw;
+    margin: 0 auto;
+}
+
+
+main section.main-box-middle .box:nth-of-type(odd) {
+    /* margin-top: -100px; */
+}
+
+main section.main-box-middle .box:nth-of-type(even) {
+    /* margin-top: 200px; */
+}
+
+main section.main-box-middle .box1 {
+    /* margin-top: -100px; */
+}
+
+main section.main-box-middle img {
+    border: 1px solid blue;
+    width: 500px;
+    height: 362px;
+    /* margin: 0 auto; */
+    z-index: -1;
+    position: absolute;
+}
+
+main section.main-box-middle div.box-texto {
+    border: 1px solid green;
+    background-color: #9767A9;
+    width: 400px;
+    /* margin: 0 auto; */
+    position: relative;
+    top: 200px;
+    right: 50px;
+}
+
+main section.main-box-middle div.box-texto h2 {
+    color: white;
+    font-family: Playfair Display, Times, serif;
+    font-size: 2rem;
+    font-weight: 900;
+    margin: 0 6% 4% 6%;
+}
+
+main section.main-box-middle div.box-texto p {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    margin: 0 6% 0 6%;
+    padding-bottom: 6%;
+}
+
+main section.main-box-middle div.box-texto strong {
+    font-size: 3.5rem;
+}
